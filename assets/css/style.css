@@ -16,6 +16,8 @@ body{
     height: 332px;
     background: linear-gradient(to right, #e8e8e8, #c1c1c1);
     border: 2px solid #555;
+    display: flex;
+    flex-direction: column;
 }
 
 .teclado{
@@ -68,3 +70,25 @@ body{
     font-weight: bold;
     padding: 3px;
 }
+
+.d__1{
+    flex: 1;
+    display: flex;
+}
+
+.d__1-left{
+    flex: 1;
+}
+
+
+.d__1-right{
+    width: 90px;
+}
+
+.d__2{
+    height: 50px;
+    font-size: 14px;
+    border-top: 2px solid #000;
+    padding-left: 10px;
+}
+
