@@ -82,7 +82,7 @@ function atualizaInterface() {
     } else {
         seuVotoPara.style.display = 'block';
         aviso.style.display = 'block';
-        descricao.innerHTML = `<div class="aviso--grande pisca">CANDIDATO INVÁLIDO</div>`
+        descricao.innerHTML = `<div class="aviso--grande pisca">VOTO NULO</div>`
 
     }
 }
