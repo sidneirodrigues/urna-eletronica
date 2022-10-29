@@ -4,12 +4,12 @@ export let etapas = [
         numeros: 2,
         candidatos: [
             {
-                numero: 13,
+                numero: '13',
                 name: 'Jerônimo',
                 partido: 'PT',
                 fotos: [
                     {
-                        url: 'governador-jeronimo.jpg',
+                        url: 'imagem-geronimo.jpg',
                         legenda: 'Governador',
                         small: false
                     }
@@ -28,12 +28,12 @@ export let etapas = [
                 ]
             },
             {
-                numero: 45,
+                numero: '45',
                 name: 'ACM Neto',
                 partido: 'UNIÃO BRASIL',
                 fotos: [
                     {
-                        url: 'governador-acm_neto.jpg',
+                        url: 'imagem-neto.jpg',
                         legenda: 'Governador',
                         small: false
                     }
@@ -59,7 +59,7 @@ export let etapas = [
         numeros: 2,
         candidatos: [
             {
-                numero: 13,
+                numero: '13',
                 name: 'Luiz Inacio',
                 partido: 'PT',
                 fotos: [
@@ -83,7 +83,7 @@ export let etapas = [
                 ]
             },
             {
-                numero: 22,
+                numero: '22',
                 name: 'Jair Bolsonaro',
                 partido: 'PL',
                 fotos: [

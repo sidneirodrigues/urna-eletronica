@@ -82,6 +82,7 @@ body{
     display: flex;
     flex-direction: column;
     padding-left: 20px;
+    padding-top: 5px;
 }
 
 .d-1-1 {
@@ -130,13 +131,14 @@ body{
     align-items: flex-end;
     justify-content: center;
     margin-right: 20px;
+    margin-top: 5px;
 }
 
 .d__2{
     height: 50px;
     font-size: 14px;
     border-top: 2px solid #000;
-    padding-left: 10px;
+    padding-left: 10px;    
 }
 
 .d-1-image {
@@ -144,6 +146,7 @@ body{
     background-color: #fff;
     text-align: center;
     font-size: 14px;
+    margin-bottom: 5px;
 }
 
 .d-1-image img {
@@ -166,5 +169,11 @@ body{
     100% {
         opacity: 0.2;
     }
+}
+
+.aviso--grande {
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
 }
 
