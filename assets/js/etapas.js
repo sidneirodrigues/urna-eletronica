@@ -7,50 +7,39 @@ export let etapas = [
                 numero: '13',
                 name: 'Jerônimo',
                 partido: 'PT',
+                cargoVice: 'Vice-Governador',
+                nomeVice: 'Geraldo Júnior',
                 fotos: [
                     {
                         url: 'imagem-geronimo.jpg',
                         legenda: 'Governador',
                         small: false
-                    }
-                ],
-                viceCandidato: [
+                    },
                     {
-                        nome: 'Geraldo Júnior',
-                        fotos: [
-                            {
-                                url: 'vice-governador-jeronimo.jpg',
-                                legenda: 'Vice-Governador',
-                                small: true
-                            }
-                        ]
+                        url: 'vice-jeronimo.jpeg',
+                        legenda: 'Vice',
+                        small: true
                     }
-                ]
+                ]              
             },
             {
                 numero: '45',
                 name: 'ACM Neto',
                 partido: 'UNIÃO BRASIL',
+                cargoVice: 'Vice-Governadora',
+                nomeVice: 'Ana Coelho',
                 fotos: [
                     {
                         url: 'imagem-neto.jpg',
                         legenda: 'Governador',
                         small: false
-                    }
-                ],
-                viceCandidato: [
+                    },
                     {
-                        nome: 'Ana Coelho',
-                        fotos: [
-                            {
-                                url: 'vice-governador-acm.jpg',
-                                legenda: 'Vice-Governador',
-                                small: true
-                            }
-                        ]
+                        url: 'vice-acm.png',
+                        legenda: 'Vice',
+                        small: true
                     }
                 ]
-
             }
         ]
     },
@@ -62,52 +51,40 @@ export let etapas = [
                 numero: '13',
                 name: 'Luiz Inacio',
                 partido: 'PT',
+                cargoVice: 'Vice-Presidente',
+                nomeVice: 'Geraldo Alckmin',
                 fotos: [
                     {
                         url: 'imagem-lula.jpg',
                         legenda: 'Presidente',
                         small: false
-                    }
-                ],
-                viceCandidato: [
+                    },
                     {
-                        nome: 'Geraldo Alckmin',
-                        fotos: [
-                            {
-                                url: 'vice-presidente-lula.jpg',
-                                legenda: 'Vice-Presidente',
-                                small: true
-                            }
-                        ]
+                        url: 'vice-lula.jpg',
+                        legenda: 'Vice',
+                        small: true
                     }
-                ]
+                ]             
             },
             {
                 numero: '22',
                 name: 'Jair Bolsonaro',
                 partido: 'PL',
+                cargoVice: 'Vice-Presidente',
+                nomeVice: 'Braga Netto',
                 fotos: [
                     {
                         url: 'imagem-bozo.jpg',
                         legenda: 'Presidente',
                         small: false
-                    }
-                ],
-                viceCandidato: [
+                    },
                     {
-                        nome: 'Braga Netto',
-                        fotos: [
-                            {
-                                url: 'vice-presidente-boso.jpg',
-                                legenda: 'Vice-Presidente',
-                                small: true
-                            }
-                        ]
+                        url: 'vice-bozo.png',
+                        legenda: 'Vice',
+                        small: true
                     }
                 ]
-
             }
         ]
-
     }
 ]
